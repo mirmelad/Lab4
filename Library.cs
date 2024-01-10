@@ -351,7 +351,7 @@ public class Library
             this.Annotation = Annotation;
             this.MatchCount = MatchCount;
         }
-
+        public BookSearchResult() { }
         public override string ToString()
         {
             return Title + " | " + Author + " | " + Genre + " | " + PublicationDate + " | " + ISBN;
